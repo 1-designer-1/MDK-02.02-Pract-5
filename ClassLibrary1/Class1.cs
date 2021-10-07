@@ -14,8 +14,7 @@ namespace ClassLibrary1
             int rows = Array.GetUpperBound(0) + 1;
             int columns = Array.Length / rows;
             List<int> listArray = new List<int>();
-            result = 0;
-            //index = 0;
+            result = 0;      
             for (int i = 0; i < columns; i++)
             {
                 for (int j = 0; j < rows; j++)
